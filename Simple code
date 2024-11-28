@@ -1,0 +1,16 @@
+include namespace std
+int main(
+scanif 
+# Define the variable;
+x = symbols('x');
+
+# Example: Solve the equation 2x + 3 = 7;
+equation = Eq(2*x + 3, 7);
+
+# Solve the equation;
+solution = solve(equation, x);
+
+# Print the solution;
+print(f"The solution to the equation is: {solution}"); 
+return 0;
+) 
